@@ -5,9 +5,10 @@ import java.util.Observer;
 
 public class SpeedMonitor implements Observer{
 	public static final int SPEED_TO_ALERT = 70;
+	private Speedometer speedo;
 	
 	public void update(Observable obs, Object obj) {
-		Speedometer speedo = (Speedometer) obs;
+		speedo = (Speedometer) obs;
 		if(speedo.getCurrentSpeed() > SPEED_TO_ALERT) {
 			System.out.println("**ALERT** Driving too fast! ("+speedo.getCurrentSpeed()+")");
 		}
