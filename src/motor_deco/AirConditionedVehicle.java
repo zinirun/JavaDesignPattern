@@ -1,18 +1,18 @@
 package motor_deco;
 
 public class AirConditionedVehicle extends AbstractVehicleOption{
-	Vehicle vehicle;
+	public int temperature;
 	
 	public AirConditionedVehicle(Vehicle vehicle) {
 		super(vehicle);
-		this.vehicle = vehicle;
 	}
 	
 	public int getPrice() {
-		return vehicle.getPrice() + 660;
+		return super.getPrice() + 600;
 	}
 	
 	public void setTemperature(int temperature) {
 		//set vehicle's temperature
+		this.temperature = temperature;
 	}
 }

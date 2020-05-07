@@ -13,4 +13,7 @@ public abstract class AbstractEngine implements Engine{
 	public boolean isTurbo() {
 		return this.turbo;
 	}
+	public String toString() {
+		return getClass().getSimpleName()+" ("+size+")";
+	}
 }

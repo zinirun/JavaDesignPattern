@@ -1,6 +1,6 @@
 package motor_deco;
 
-public class Pickup extends AbstractVehicle{
+public class Pickup extends AbstractVan{
 	public Pickup(Engine engine) {
 		super(engine);
 	}

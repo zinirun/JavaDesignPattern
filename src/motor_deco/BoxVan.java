@@ -1,6 +1,6 @@
 package motor_deco;
 
-public class BoxVan extends AbstractCar{
+public class BoxVan extends AbstractVan{
 	public BoxVan(Engine engine) {
 		super(engine);
 	}
@@ -8,6 +8,4 @@ public class BoxVan extends AbstractCar{
 	public int getPrice() {
 		return 10000;
 	}
-	
-	public 
 }

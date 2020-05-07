@@ -4,7 +4,7 @@ public abstract class AbstractVehicleOption extends AbstractVehicle{
 	Vehicle vehicle;
 	
 	public AbstractVehicleOption(Vehicle vehicle) {
-		super(vehicle.getEngine());
+		super(vehicle.getEngine(), vehicle.getColour());
 		this.vehicle = vehicle;
 	}
 	

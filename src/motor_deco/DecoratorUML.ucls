@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="motor_deco.AbstractVehicle" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/AbstractVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="911" y="-533"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="motor_deco.Pickup" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/Pickup.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="483" y="-321"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="motor_deco.SetNavVehicle" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/SetNavVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="965" y="-152"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="motor_deco.AbstractVehicleOption" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/AbstractVehicleOption.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1090" y="-347"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="motor_deco.LeatherSeatedVehicle" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/LeatherSeatedVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1321" y="-169"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="motor_deco.Engine" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/Engine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1182" y="-707"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="motor_deco.Saloon" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/Saloon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="593" y="-322"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="motor_deco.Coupe" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/Coupe.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="697" y="-316"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="motor_deco.AlloyWheeledVehicle" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/AlloyWheeledVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="795" y="-167"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="motor_deco.AirConditionedVehicle" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/AirConditionedVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1138" y="-151"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="motor_deco.StandardEngine" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/StandardEngine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1284" y="-578"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="motor_deco.AbstractCar" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/AbstractCar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="609" y="-467"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="motor_deco.TurboEngine" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/TurboEngine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1418" y="-584"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="motor_deco.AbstractEngine" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/AbstractEngine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1359" y="-735"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="motor_deco.BoxVan" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/BoxVan.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="372" y="-346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="motor_deco.Sport" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/Sport.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="803" y="-325"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="motor_deco.MetallicPaintedVehicle" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/MetallicPaintedVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1504" y="-191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="18" language="java" name="motor_deco.Vehicle" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/motor_deco/Vehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="906" y="-749"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <realization id="19">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="21">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="22" name="vehicle"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <bendpoint x="936" y="-440"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="25" name="vehicle"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="28" name="engine"/>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="31" name="vehicle"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <realization id="38">    
+    <bendpoint x="1171" y="-615"/>    
+    <bendpoint x="1171" y="-440"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="39">    
+    <bendpoint x="1192" y="-440"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="40" name="vehicle"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="42">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="43">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="44" name="vehicle"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="47" name="vehicle"/>      
+      <multiplicity id="48" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="49">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="51">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

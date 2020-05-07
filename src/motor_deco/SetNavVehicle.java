@@ -2,6 +2,7 @@ package motor_deco;
 
 public class SetNavVehicle extends AbstractVehicleOption{
 	Vehicle vehicle;
+	String dest;
 	
 	public SetNavVehicle(Vehicle vehicle) {
 		super(vehicle);
@@ -14,5 +15,6 @@ public class SetNavVehicle extends AbstractVehicleOption{
 	
 	public void setDestination(String dest) {
 		//set destination
+		this.dest = dest;
 	}
 }

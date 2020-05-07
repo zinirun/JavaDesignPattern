@@ -1,6 +1,6 @@
 package motor_deco;
 
-public class Sport extends AbstractVehicle{
+public class Sport extends AbstractCar{
 	public Sport(Engine engine) {
 		super(engine);
 	}
